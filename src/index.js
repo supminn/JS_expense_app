@@ -13,7 +13,7 @@ let data = [];
 
 const deleteItem = (id) => {
   data = data.filter((item) => item.id !== id);
-  console.log("inside delete");
+  printTableContents();
 };
 
 const htmlContent = (item) => {
