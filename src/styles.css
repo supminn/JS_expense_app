@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.alert-danger {
+  margin: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-outline-danger {
+  border-radius: 0.5rem;
+}
+
+.wrapper {
+  width: 90%;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .wrapper {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 50%;
+  }
+}
